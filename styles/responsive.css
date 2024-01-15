@@ -1,5 +1,59 @@
 @media screen and (max-width: 600px) {
-    
+    .container{
+        margin: 0 4% 0 4%;
+    }
+
+
+
+    .banner .title{
+        font-size: 22px;
+    }
+    .banner .sub-title{
+        font-size: 14px;
+    }
+    .subscribe-container{
+        width: 380px;
+    }
+
+    .pop-tour-content {
+        flex-direction: column;
+    }
+
+    .pop-tour-content .image {
+        margin-left: 0rem; 
+        width: 100%;
+    }
+    .pop-tour {
+        width: 100%;
+    }
+
+    .banner .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 255px;
+        
+    }
+
+    #where input, #when select,  #select-type select, #bttn .btn-primary {
+        width: 14rem;
+    }
+
+
+    /*newsletter*/
+    #News-letter {
+        flex-direction: column;
+    }
+    .sub-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    nav {
+        flex-direction: column;
+    }
+
 }
 
 /*tablet*/
