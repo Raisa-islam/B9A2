@@ -6,9 +6,12 @@
     <title>TravelEase</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/responsive.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+
 </head>
 <body>
-    <header>
+    <header class="container">
 
         <!-- nav bar -->
         <nav>
@@ -25,10 +28,37 @@
                 <a href="#">Contact</a>
             </div>
         </nav>
-
+       
         <!-- nav bar end -->
 
         <!-- banner start -->
+        <div class="banner">
+            <div class="title">Explore Your Travel</div>
+
+            <div class="sub-title">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</div>
+
+            <div class="options">
+                <div id="where"> <input type="text" id="where-input" placeholder="Where go"></div>
+                <div id="when">
+                    <select id="when-opt" name="When">
+                        <option value="0">When</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                </div>
+                <div id="select-type">
+                    <select id="select-opt" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                </div>
+                <div id="bttn">
+                    <button class="btn-primary"><i class='bx bx-search'></i>Find Now</button>
+                </div>
+            </div>
+
+        </div>
 
         <!-- banner end -->
     </header>
@@ -37,12 +67,44 @@
 
     <main>
 
+        <!-- Popular tour section -->
+        <section>
+            <div class="container">
+                <div class="pop-tour">
+                    <h1>Our Popular Tours</h1>
+                    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia tempora a animi perspiciatis quo aliquid, nostrum rem harum. Commodi natus nobis quia unde vel dicta necessitatibus accusantium, inventore excepturi!</div>
+                </div>
+                <div><img src="Images/Rectangle 4.png" alt=""></div>
+            </div>
+        </section>
     </main>
 
     <!-- footer -->
 
     <footer>
+        <div class="footer-content">
+            <div class="footer-title">
+                <div><img src="Images/Group 40071 (2).png" alt=""></div>
+                <p>Travel <span>Ease</span></p>
+            </div>
 
+            <div class="footer-sub-title">
+                Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. 
+            </div>
+
+            <div class="footer-icons">
+                <i class='bx bxl-twitter' undefined ></i>
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-github' ></i>
+            </div>
+            <hr>
+            
+
+            <div class="copyright">
+                2024, All Rights Reserved.
+            </div>
+        </div>
     </footer>
 </body>
 </html>

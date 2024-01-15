@@ -1,7 +1,7 @@
 /* font url */
 
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 
 /* shared css*/
@@ -13,6 +13,7 @@
    
 }
 
+
 :root {
     --primary-color: #131318;
     --secondary-color: #FF5400;
@@ -21,9 +22,15 @@
 
 }
 
+.btn-primary {
+    border-radius: 8px;
+    background: var(--secondary-color);
+    color: #FFF;
+}
+
 /* header css*/
-header{
-    max-width: 1300px;
+.container {
+    max-width: 1170px;
     margin: 2.8rem auto;
  
     
@@ -40,7 +47,8 @@ nav {
 }
 
 .nav-container img {
-    width: 48px;display: flex;
+    width: 48px;
+    display: flex;
     justify-content: center;
     height: 56px;
    
@@ -82,6 +90,165 @@ nav {
     color: var(--secondary-color);
 }
     /* banner css */
-/**/
+
+.banner {
+    margin-top: 2.3rem;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, hsla(240, 12%, 8%, 0.8), hsla(240, 12%, 8%, 0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner .sub-title {
+    margin-top: 1.5rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner .options {
+    margin-top: 4rem;
+    border-radius: 8px;
+    background: hsla(0, 0%, 100%, 0.3);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 69%;
+    
+}
+#where input {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    height: 3.25rem;
+    width: 10.8rem;
+    
+}
+
+#when select, #select-type select {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    height: 3.25rem;
+    width: 10.8rem;
+}
+
+#where-input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: left;
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#select-opt option {
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+#bttn .btn-primary {
+    border: none;
+    height: 3.25rem;
+    width: 10.8rem;   
+    font-size: 16px; 
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+
+/* footer */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 68%;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-title img {
+    width: 40px;
+    height: 46.673px;
+
+}
+
+.footer-title p{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-title p span {
+    color: var(--secondary-color);
+}
+.footer-sub-title {
+    margin-top: 15px;
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.copyright{
+    margin-top: 3.2rem;
+    text-align: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+hr{
+    margin-top: 1.8rem;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-icons{
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 35px;
+}
+.footer-icons i {
+    font-size: 35px;
+}
+
 /**/
 /**/
