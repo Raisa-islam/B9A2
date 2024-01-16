@@ -531,3 +531,79 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* place of get lost*/
+.get-lost{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.get-lost div{
+    width: 50%;
+  
+}
+
+.get-lost #vid {
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.vide{
+    position: relative;
+}
+
+.vide p{
+    position: absolute;
+    z-index: 3;
+
+    top: 150px;
+    right: 60px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+
+
+#get-lost-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+#get-lost-desc h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+#get-lost-desc p{
+    color: #5A5A5D;
+    font-size: 15px;
+    font-weight: 400;
+    width: 35vw;
+    margin-left: 2px;
+    margin-top: 15px;
+}
+
+#get-lost-desc ul{
+    margin-top: 15px;
+    width: 35vw;
+    padding-left: 25px;
+}
+
+#get-lost-desc ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#get-lost-desc button{
+    width: 174px;
+    height: 52px;   
+    font-size: 20px;
+    font-weight: 800;
+}

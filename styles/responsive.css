@@ -116,6 +116,33 @@
     .choose-img div {
         font-size: 20px;
     }
+
+
+    .get-lost {
+        flex-direction: column;
+       
+    }
+
+    #get-lost-desc h1 {
+        font-size: 20px;
+    }
+    .get-lost div {
+        width: 100%;
+    }
+    #get-lost-desc h1{
+        width: 70vw;
+    }
+    #get-lost-desc p, #get-lost-desc ul{
+        font-size: 14px;
+        width: 75vw;
+    }
+    .vide p {
+        top: 70px;
+        right: 5px;
+        font-size: 20px;
+    }
+
+
 }
 
 /*tablet*/
