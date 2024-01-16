@@ -33,6 +33,14 @@
     }
     
    
+    .banner .options {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 255px;
+        
+    }
+
 
     .banner .title{
         font-size: 22px;
@@ -40,9 +48,7 @@
     .banner .sub-title{
         font-size: 14px;
     }
-    .subscribe-container{
-        width: 100%;
-    }
+    
 
     .pop-tour-content {
         flex-direction: column;
@@ -55,21 +61,24 @@
     .pop-tour {
         width: 100%;
     }
-
-    .banner .options {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 255px;
-        
+    .pop-tour h1{
+        font-size: 20px;
+    }
+    .pop-tour div {
+        font-size: 14px;
     }
 
+   
     #where input, #when select,  #select-type select, #bttn .btn-primary {
         width: 14rem;
     }
 
 
     /*newsletter*/
+    .subscribe-container{
+        width: 100%;
+    }
+
     #News-letter {
         flex-direction: column;
     }
@@ -78,8 +87,35 @@
         margin-bottom: 30px;
     }
 
+    .sticker {
+        scale: .68;
+        bottom: 15px;
+        right: -44px;
+    }
+
+    /* destination choose*/
+
+    .choose-destination-title  {
+        font-size: 20px;
+        width: 85%;
+    }
+
+    #choose-desc{
+        font-size: 14px;
+        margin: 16px auto;
+        width: 90%;
+    }
 
 
+    .choose-img{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        
+    }
+    .choose-img div {
+        font-size: 20px;
+    }
 }
 
 /*tablet*/

@@ -286,7 +286,42 @@ hr{
 .pop-tour {
     width: 50%;
 }
+.pop-tour h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.pop-tour div {
+    margin-top: 20px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.pop-tour ul {
+    margin-top: 20px;
+
+}
+
+.pop-tour li{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#con {
+    color: #5A5A5D;
+}
+
+#pop {
+    margin-top: 30px;
+    width: 174px;
+    height: 52px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
 /*  newsletter */
 
 
@@ -380,4 +415,119 @@ hr{
     font-size: 32px;
     font-weight: 800;
 
+}
+
+
+/* destination choose*/
+.choose-destination-title {
+    width: 70%;
+    margin: 0 auto;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+#choose-desc{
+    width: 80%;
+    margin: 24px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-img{
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.row1-col1{
+    grid-column: 1/span 6;
+}
+
+.row1-col2{
+    grid-column: 7/span 6;
+}
+
+.row2-col1{
+    grid-row: 2/span 1;
+    grid-column: 1/ span 4;
+}
+
+.row2-col2{
+    grid-row: 2/span 1;
+    grid-column: 5/ span 5;
+}
+.row2-col3{
+    grid-row: 2/span 1;
+    grid-column: 10/ span 3;
+}
+
+.row3-col1{
+    grid-row: 3/span 1;
+    grid-column: 1/ span 5;
+}
+.row3-col2{
+    grid-row: 3/span 1;
+    grid-column: 6/ span 7;
+}
+
+
+.choose-img div {
+    color: #FFF;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: 800;  
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Maldives {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Indonesia {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Srilanka {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../Images/Rectangle\ 6.png), lightgray -101px -108.075px / 135.253% 172.05%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#North-America {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Kashmir {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Bangladesh {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Bandarban {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
