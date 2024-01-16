@@ -1,9 +1,38 @@
 @media screen and (max-width: 600px) {
     .container{
-        margin: 0 4% 0 4%;
+        margin: 20px auto;
+        max-width:  85vw;
+
     }
 
+    /* nav */
 
+    .item-container{
+        display: none;
+        
+    }
+    nav {
+        justify-content: space-between;
+    }
+    nav i{
+        visibility: visible;
+    
+    }
+
+    .nav-container img {
+        width: 32px;
+        height: 27px;
+       
+       
+    }
+    
+    .nav-container p {
+        font-size: 21.543px;
+        height: 27px;
+    
+    }
+    
+   
 
     .banner .title{
         font-size: 22px;
@@ -12,7 +41,7 @@
         font-size: 14px;
     }
     .subscribe-container{
-        width: 380px;
+        width: 100%;
     }
 
     .pop-tour-content {
@@ -50,9 +79,6 @@
     }
 
 
-    nav {
-        flex-direction: column;
-    }
 
 }
 

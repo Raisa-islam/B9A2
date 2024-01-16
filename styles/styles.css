@@ -38,19 +38,21 @@
 }
 nav {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
     /* nav css */
 .nav-container {
     display: flex;
     width: 50%;
-    align-items: center;
+    
 
 }
 
 .nav-container img {
     width: 48px;
     display: flex;
-    justify-content: center;
+    
     height: 56px;
    
    
@@ -69,6 +71,11 @@ nav {
     color: #FF5400;
 }
 
+nav i{
+    font-size: 30px;
+    visibility: hidden;
+}
+
 .item-container {
     width: 50%;
     display: flex;
@@ -78,6 +85,7 @@ nav {
     
 }
 
+
 .item-container a{
     text-decoration: none;
     color: var(--Dark-02);
@@ -86,6 +94,8 @@ nav {
     font-weight: 400;
 
 }
+
+
 
 .item-container #id-1 {
     color: var(--secondary-color);
