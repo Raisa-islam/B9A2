@@ -95,9 +95,8 @@
 
     /* destination choose*/
 
-    .choose-destination-title  {
+    .choose-destination-title h1 {
         font-size: 20px;
-        width: 85%;
     }
 
     #choose-desc{
@@ -142,6 +141,38 @@
         font-size: 20px;
     }
 
+    .title-us {
+        font-size: 20px;
+    }
+    .sub-us {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .card-container img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card-container h1{
+        padding-top: 16px;
+        color: #131318;
+        font-size: 20px;
+        font-weight: 800;
+    
+    }
+    .card-container p{
+        padding-top: 16px;
+        color: #5A5A5D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
 
 }
 
